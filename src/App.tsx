@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Code2, ArrowRight, ChevronRight, Terminal, Serv
 import { AnimatedText } from './components/ui/animated-text';
 import { MovingBorder } from './components/ui/moving-border';
 import karishmaImage from './assets/Karishma.png';
-import fixkaroImage from './assets/Fixkaro.png';
+import fixkaroImage from './assets/FixKaro.png';
 import gajImage from './assets/100Gaj.png';
 
 function App() {
