@@ -2,6 +2,9 @@ import { motion, useScroll } from 'framer-motion';
 import { Github, Linkedin, Mail, Code2, ArrowRight, ChevronRight, Terminal, Server, Globe, Database, Shield, Zap, Calendar, MapPin, Briefcase, Phone } from 'lucide-react';
 import { AnimatedText } from './components/ui/animated-text';
 import { MovingBorder } from './components/ui/moving-border';
+import karishmaImage from './assets/Karishma.png';
+import fixkaroImage from './assets/Fixkaro.png';
+import gajImage from './assets/100Gaj.png';
 
 function App() {
 
@@ -196,21 +199,21 @@ function App() {
                 title: "E-Commerce Platform",
                 description: "A full-stack e-commerce solution with real-time inventory management and payment integration.",
                 tech: ["React", "Node.js", "MongoDB", "Razorpay"],
-                image: "src/Karishma.png",
+                image: karishmaImage,
                 link: "https://prototype1.karishmacloset.in/"
               },
               {
                 title: "Repair Service Listing Website",
                 description: "A website for listing repair services with real-time updates and team features.",
                 tech: ["Next.js", "TypeScript", "MongoDB","Tailwind CSS"],
-                image: "/src/Fixkaro.png",
+                image: fixkaroImage,
                 link: "https://fixkaro.vercel.app/"
               },
               {
                 title: "Property Listing Website",
                 description: "A website for listing properties with real-time updates and team features.",
                 tech: ["React", "Node.js", "MongoDB","Typescript","Tailwind CSS"],
-                image: "/src/100Gaj.png",
+                image: gajImage,
                 link: "https://construction-livid.vercel.app/"
               }
             ].map((project, i) => (
