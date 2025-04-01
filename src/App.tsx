@@ -1,4 +1,4 @@
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Code2, ArrowRight, ChevronRight, Terminal, Server, Globe, Database, Shield, Zap, Calendar, MapPin, Briefcase, Phone } from 'lucide-react';
 import { AnimatedText } from './components/ui/animated-text';
 import { MovingBorder } from './components/ui/moving-border';
